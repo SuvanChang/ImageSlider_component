@@ -1,0 +1,34 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#container{
+	width: 100%;
+	height:100%;
+}
+ul.imgsLiSet{
+	width: 100%;
+	height: 100%;
+	background: #333;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	overflow: hidden;
+}
+ul.imgsLiSet li{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+/*	left: -50%;
+	top:-50%;*/
+}
+
